@@ -1,21 +1,21 @@
 <template>
   <v-app>
-    <v-app-bar height="10%">
-      <SwHeader />
-    </v-app-bar>
-    <v-content>
-    </v-content>
+    <SwHeader />
+    <router-view />
+    <SwFooter />
   </v-app>
 </template>
 
 <script>
 import SwHeader from "./components/SwHeader";
+import SwFooter from "./components/SwFooter";
 
 export default {
   name: "App",
 
   components: {
-    SwHeader
+    SwHeader,
+    SwFooter
   },
 
   data: () => ({

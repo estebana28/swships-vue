@@ -1,5 +1,7 @@
 <template>
-  <div class="about">
-    <h1>This is a Ship page</h1>
-  </div>
+  <v-content></v-content>
 </template>
+
+<script></script>
+
+<style></style>
